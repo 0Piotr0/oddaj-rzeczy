@@ -1,12 +1,16 @@
 import React, { } from 'react';
 import "./components/scss/main.scss"
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Home from "./components/Home";
 
 function App() {
-  return (
-    <div className="App">
-      Aplikacja oddaj rzeczy.
-    </div>
-  );
+    return (
+        <Router>
+            <Switch>
+                <Route exact path="/" component={Home}/>
+            </Switch>
+        </Router>
+    );
 }
 
 export default App;
