@@ -42,7 +42,7 @@ const ThreeColumns = () => {
                             <h2>7</h2>
                         </div>
                         <div className="three-columns__title">
-                            <h3>ZORGANIZOWANY ZBIÓREK</h3>
+                            <h3>ZORGANIZOWANYCH ZBIÓREK</h3>
                         </div>
                         <div className="three-columns__text">
                             <p>
