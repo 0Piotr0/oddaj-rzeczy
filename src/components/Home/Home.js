@@ -4,7 +4,7 @@ import HomeMenu from "./HomeMenu";
 import ThreeColumns from "./ThreeColumns";
 import FourSteps from "./FourSteps";
 import About from "./About";
-import Help from "./Help";
+import WhoDoWeHelp from "./WhoDoWeHelp";
 import FooterContact from "./FooterContact";
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
             <ThreeColumns/>
             <FourSteps/>
             <About/>
-            <Help/>
+            <WhoDoWeHelp/>
             <FooterContact/>
         </>
     );

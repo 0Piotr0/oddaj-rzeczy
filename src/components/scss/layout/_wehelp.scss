@@ -1,0 +1,86 @@
+.whoDoWeHelp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  .whoDoWeHelpHeadline {
+  }
+  .decorationImage4 {
+    background-image: url("../../../assets/Decoration.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 4rem;
+    margin-top: 0.5rem;
+    width: 13rem;
+  }
+  .whoDoWeHelpNav {
+    ul {
+      display: flex;
+      justify-content: space-around;
+
+      li {
+        cursor: pointer;
+        list-style: none;
+        margin: 0 4rem 2rem 4rem;
+        text-align: center;
+        border: 1px solid $color-section-bg;
+        padding: 0.7rem;
+        &:first-of-type {
+          padding: 1.4rem 0.7rem 0.3rem 0.7rem;
+        }
+        &:last-of-type {
+          padding: 0.7rem 1.5rem;
+        }
+      }
+      .active {
+        border: 1px solid $color-text-primary;
+      }
+    }
+  }
+  .whoDoWeHelpDescription {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .whoDoWeHelpList {
+    .fundationMain {
+      border-bottom: 1px solid $color-text-primary;
+      padding: 1rem 0;
+      width: 100%;
+      .fundationHeader {
+        font-size: 1.2rem;
+      }
+      .fundationDesc {
+        font-size: 0.8rem;
+
+        padding-top: 1rem;
+      }
+      .fundationSubheader {
+        font-size: 0.8rem;
+        font-style: italic;
+      }
+    }
+  }
+  .showPages {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    .showPagesButton {
+      background-color: $color-section-bg;
+      border: 1px solid $color-section-bg;
+      cursor: pointer;
+      height: 2.5rem;
+      margin: 0.5rem;
+      width: 1.5rem;
+    }
+    .activeButton {
+      background-color: $color-section-bg;
+      border: 1px solid $color-text-primary;
+      cursor: pointer;
+      height: 2.5rem;
+      margin: 0.5rem;
+      width: 1.5rem;
+    }
+  }
+}
